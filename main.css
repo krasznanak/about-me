@@ -1,0 +1,80 @@
+/*css reset*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+.profile-card{
+  width: 480px;
+  max-width: calc(100vw -20px);
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+	font-family: sans-serif;
+  line-height: 1.5;
+}
+.head, .links{
+  text-align: center;
+}
+.head, content{
+  width: 80%;
+  margin: 0 auto;
+}
+img{
+  width: 100px;
+  height; 100px;
+  border-radius: 50%;
+	margin-top: -50px;
+	padding: 1px;  
+	filter: grayscale(50%);
+}
+img:hover{
+  transform: scale(1.1);
+  filter: grayscale(20%);
+}
+.profile-image{
+  margin-top: -50px;
+}
+ul{
+  list-style-type: none;
+}
+li{
+  display: inline;
+}
+.head, .about{
+  margin-bottom: 10%;
+}
+.content{
+  padding: 5% 10%;
+}
+body{
+  background: url('assets/h%C3%A1tt%C3%A9r.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+.profile-card{
+	margin: 100px auto;
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 10px;
+  box-shadow: hsla(0, 0%, 0%, .8)10px 10px 80px;
+}
+.content{
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+body{
+  font-size: 100%;
+}
+h2{
+  margin: 30px;
+} 
+a{
+	margin: 20px;
+	color: dodgerblue;
+	padding: 18px 10px 10px 10px;
+	border: 1px solid grey;
+	border-radius: 50%;
+	background-color: lightgrey;
+}
